@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
+import HomeCompIndex from "../components/home/ui";
 
 export default function Home() {
   return (
@@ -15,14 +16,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Next.js Routing and Next Link</h1>
-        <Button>
-          <Link href="/events">Explore Events!</Link>
-        </Button>
-
-        <Button>
-          <Link href="/users">See All Users</Link>
-        </Button>
+        <HomeCompIndex />
       </main>
     </div>
   );
