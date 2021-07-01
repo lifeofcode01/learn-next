@@ -15,14 +15,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Next.js Routing and Next Link</h1>
         <Button>
-          <Link href="/page1">Go to Page 1</Link>
+          <Link href="/events">Explore Events!</Link>
         </Button>
+
         <Button>
-          <Link href="/page2">Go to Page 2</Link>
+          <Link href="/users">See All Users</Link>
         </Button>
       </main>
     </div>
