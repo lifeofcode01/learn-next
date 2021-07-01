@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project with TypeScript, Mobx for easy State Management, Chakra UI to make beautiful UI easily and MongoDB(soon). 
+
+Note: Main branch has all the latest Code. Switch branch to get the code of a particular youtube lesson video.
 
 ## Getting Started
 
