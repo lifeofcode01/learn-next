@@ -18,12 +18,12 @@ export default function HomeUI() {
           <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
             <Text
               as={"span"}
-              position={"relative"}
+              // position={"relative"}
               _after={{
                 content: "''",
                 width: "full",
                 height: useBreakpointValue({ base: "20%", md: "30%" }),
-                position: "absolute",
+                // position: "absolute",
                 bottom: 1,
                 left: 0,
                 // bg: "blue.400",
@@ -63,6 +63,10 @@ export default function HomeUI() {
   );
 
   function techStackButton(text: string) {
-    return <Button rounded={"base"}>{text}</Button>;
+    return (
+      <Button position="static" rounded={"base"}>
+        {text}
+      </Button>
+    );
   }
 }
