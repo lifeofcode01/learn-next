@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project with TypeScript, Mobx for easy 
 
 ## Note: Main branch has all the latest Code. Switch branch to get the code of a particular youtube lesson video.
 
+## Our Amazing Youtube Playlist (Next.js with TypeScript, Mobx, Chakra UI and MongoDB ) link:
+https://youtube.com/playlist?list=PL1xjvXM_PQWxZ802QXOs9E9IEQTTZk_yf
+## Useful Notion link which has resources and commands.
+https://www.notion.so/Next-js-with-TypeScript-Mobx-Chakra-UI-and-MongoDB-soon-ee129e2e49304983930add42bd345ea9
+
+
 ## Getting Started
 
 First, run the development server:
