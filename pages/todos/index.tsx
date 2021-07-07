@@ -1,7 +1,12 @@
 import React from "react";
+import TodosCompIndex from "../../components/todos/ui";
 
 const TodosIndex = () => {
-  return <div>We will make our Todos here.</div>;
+  return (
+    <>
+      <TodosCompIndex />
+    </>
+  );
 };
 
 export default TodosIndex;
