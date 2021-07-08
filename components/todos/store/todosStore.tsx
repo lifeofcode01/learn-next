@@ -30,6 +30,12 @@ class TodosStore {
     this.todosList.push(this.todo);
     this.todo = this.resetTodoData();
   }
+
+  deleteTodo = (id: number) => {
+    console.log(`todos : ${this.todosList}`);
+    console.log(`delete id : ${id}`);
+    this.todosList = this.todosList.filter((todo) => todo.id !== id);
+  };
 }
 
 const todosStore = new TodosStore();
