@@ -8,9 +8,19 @@ function TodoListItems() {
     <>
       {todosStore.todosList.map((todo: ITodoModel) => (
         <Flex pt={2} key={todo.id}>
-          <Checkbox />
-          <Input value={todo.text} onChange={(evt) => DOMRectReadOnly} />
-          <Button onClick={() => todosStore.deleteTodo(todo.id)}>Delete</Button>
+          <Checkbox position="static" />
+          <Input
+            position="static"
+            mx={2}
+            value={todo.text}
+            onChange={(evt) => DOMRectReadOnly}
+          />
+          <Button
+            position="static"
+            onClick={() => todosStore.deleteTodo(todo.id)}
+          >
+            Delete
+          </Button>
         </Flex>
       ))}
     </>
