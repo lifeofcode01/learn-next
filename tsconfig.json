@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+      "baseUrl": "./", //points to learn-next folder
+      "paths": {
+        "@components/*": [
+          "components/*"
+        ], //for absolute import
+        "@imodels/*": [
+          "imodels/*"
+        ] 
+      },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

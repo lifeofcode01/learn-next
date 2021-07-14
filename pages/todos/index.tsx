@@ -1,9 +1,10 @@
 import axios from "axios";
 import { GetServerSideProps, GetStaticProps } from "next";
 import React from "react";
-import todosStore from "../../components/todos/store/todosStore";
-import TodosCompIndex from "../../components/todos/ui";
-import { ITodoModel } from "../../imodels/ITodoModel";
+import todosStore from "@components/todos/store/todosStore";
+import TodosCompIndex from "@components/todos/ui";
+// import { ITodoModel } from "../../imodels/ITodoModel";
+import { ITodoModel } from "@imodels/ITodoModel";
 
 export const getStaticProps: GetStaticProps = async () => {
   console.log(

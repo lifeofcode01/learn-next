@@ -1,6 +1,6 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import { ITodoModel } from "../../../imodels/ITodoModel";
+import { ITodoModel } from "@imodels/ITodoModel";
 import todosStore from "../store/todosStore";
 import AddTodo from "./AddTodo";
 import TodosList from "./TodosList";
