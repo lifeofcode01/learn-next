@@ -22,8 +22,8 @@ function TodoListItems() {
             position="static"
             mx={2}
             value={`${todo.text}`}
-            onChange={(evt) => (todo.text = evt.target.value)}
-            // onChange={(evt) => DOMRectReadOnly}
+            // onChange={(evt) => (todo.text = evt.target.value)}
+            onChange={(evt) => DOMRectReadOnly}
           />
           <Button
             position="static"
